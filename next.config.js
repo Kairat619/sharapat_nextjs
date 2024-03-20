@@ -7,7 +7,4 @@ module.exports = {
   assetPrefix: isProd ? 'https://farzaa.vercel.app' : undefined,
 }
 
-//   module.exports = {eslint:{
- // ignoreDuringBuilds:true,
-//   },
-//  }
+  // module.exports = {eslint:{ ignoreDuringBuilds:true,},}
