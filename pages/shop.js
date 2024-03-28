@@ -7,7 +7,7 @@ export default function shop() {
   return (
     <>
       <Head>
-        <title>Farzaa Shop</title>
+        <title>Sharapat Shop</title>
         <meta name="description" content="Developed By Azizur Rahman" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="images/favicon.png" />

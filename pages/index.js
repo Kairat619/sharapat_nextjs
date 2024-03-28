@@ -55,7 +55,7 @@ export default function Home({
   return (
     <>
       <Head>
-        <title>Farzaa - Jewellery Shop</title>
+        <title>Sharapat - Jewellery Shop</title>
         <meta name="description" content="Developed By Azizur Rahman" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="images/favicon.png" />

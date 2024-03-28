@@ -2,18 +2,15 @@ import { FarzaaContext } from '@/context/FarzaaContext'
 import { blogList } from '@/data/Data';
 import React, { useContext } from 'react'
 const categories = [
-  { name: null, label: 'All Door' },
-  { name: 'Electronic', label: 'Electronic' },
-  { name: 'Furniture', label: 'Furniture' },
+  { name: null, label: 'All Blog' },
+ 
   { name: 'Fashion', label: 'Fashion' },
   { name: 'Food', label: 'Food' },
   { name: 'Travel', label: 'Travel' },
-  { name: 'Classic Door', label: 'Classic Door' },
-  { name: 'Modern Door', label: 'Modern Door' },
-  { name: 'Glass Doors', label: 'Glass Doors' },
+  
   { name: 'Jewelry', label: 'Jewelry' },
   { name: 'Ring', label: 'Ring' },
-  { name: 'Cake Shop', label: 'Cake Shop' },
+  
 ];
 const BlogCategoryFilter = () => {
     const {

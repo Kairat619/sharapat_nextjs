@@ -4,17 +4,14 @@ import React, { useContext } from 'react'
 const BlogTagFilter = () => {
   const {selectedBlogTags,handleBlogTagSelection} = useContext(FarzaaContext)
   const tags = [
-    'Electronic',
-    'Furniture',
+    
     'Fashion',
     'Food',
     'Travel',
-    "Classic Door",
-    "Modern Door",
-    "Glass Doors",
+    
     'Jewelry',
     'Ring',
-    "Cake Shop",
+   
   ]
   return (
     <section className="sidebar-single-area product-tags-area">

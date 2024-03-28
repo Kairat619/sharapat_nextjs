@@ -53,10 +53,10 @@ const BlogDetailSection = ({product}) => {
                     <div className="fz-blog-details__tags-n-shares d-flex align-items-center justify-content-between">
                         <div className="fz-blog-details__tags">
                             <span>Tags:</span>
-                            <Link href="/blog">Men</Link>
-                            <Link href="/blog">Sales</Link>
-                            <Link href="/blog">Electronic</Link>
-                            <Link href="/blog">Marketings </Link>
+                            <Link href="/blog">jewelry</Link>
+                            <Link href="/blog">Fashion</Link>
+                            <Link href="/blog">Travel</Link>
+                            <Link href="/blog">Food </Link>
                         </div>
 
                         <div className="fz-blog-details__shares">

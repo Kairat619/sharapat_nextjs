@@ -3,15 +3,12 @@ import { allProductList } from '@/data/Data';
 import React, { useContext, useState } from 'react';
 
 const categories = [
-    { name: null, label: 'All Door' },
-    { name: 'Plastic Door', label: 'Plastic Door' },
-    { name: 'Wooden Door', label: 'Wooden Door' },
-    { name: 'Double Layer Door', label: 'Double layer Door' },
-    { name: 'Chinese Door', label: 'Chinese Door' },
-    { name: 'Steel Door', label: 'Steel Door' },
-    { name: 'Solid Color Door', label: 'Solid Color Door' },
-    { name: 'Panel Door', label: 'Panel door' },
-    { name: 'Security Door', label: 'Security door' }
+    { name: null, label: 'All Jewellery' },
+    { name: 'Ring', label: 'Ring' },
+    { name: 'Necklace', label: 'Necklace' },
+    { name: 'Hair Clip', label: 'Hair Clip' },
+    { name: 'Bracelet', label: 'Bracelet' }
+    
 ];
 
 const ProductCategoryList = () => {
