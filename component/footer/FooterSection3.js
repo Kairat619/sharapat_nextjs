@@ -90,7 +90,7 @@ const FooterSection3 = () => {
                 <div className="row gy-4 align-items-center">
                     <div className="col-lg-4">
                         <p className="fz-3-copyright">&copy;
-                            {currentYear} Design & Developed by <b>CodeBasket</b>
+                            {currentYear} Edited & Deployed by <b>k.j</b>
                         </p>
                     </div>
 
