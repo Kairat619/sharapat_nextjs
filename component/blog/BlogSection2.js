@@ -18,7 +18,7 @@ const BlogSection2 = ({blogStaticData}) => {
 
                 <div className="fz-blogs">
                     <div className="row g-3 justify-content-center">
-                        {blogStaticData.slice(8,11).map((item) => (
+                        {blogStaticData.slice(3,6).map((item) => (
                             <div className="col-lg-4 col-sm-6 col-8 col-xxs-12" key={item.id}>
                                 <div className="fz-single-blog">
                                     <div className="fz-single-blog__img">

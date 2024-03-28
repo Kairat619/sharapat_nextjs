@@ -209,7 +209,7 @@ const allProductList = [
 const blogList = [
  
     {
-        id:2,
+        id:0,
         imgSrc:"images/blogs-blog-3.png",
         category:"Fashion",
         date:"June 21, 2023",
@@ -218,7 +218,7 @@ const blogList = [
         desc:"Electronic products often contain a range of components, including processors, memory, and input/output devices, and they may be powered by batteries or plugged into an electrical outlet. Many electronic products rely on software programs to function and may be connected to the internet.",
     },
     {
-        id: 3,
+        id: 1,
         imgSrc: "images/blogs-blog-4.png",
         category: "Food",
         date: "June 22, 2023",
@@ -227,7 +227,7 @@ const blogList = [
         desc: "Food is not just sustenance; it's an art, a culture, and a way of life. From street food stalls to Michelin-starred restaurants, this blog dives into the rich tapestry of flavors, ingredients, and culinary traditions that make up our global food landscape.",
     },
     {
-        id: 4,
+        id: 2,
         imgSrc: "images/blogs-blog-5.png",
         category: "Travel",
         date: "June 22, 2023",
@@ -237,7 +237,7 @@ const blogList = [
     },
    
     {
-        id: 8,
+        id: 3,
         imgSrc: "images/blog-1.png",
         category: 'Jewelry',
         date: '11 May, 2023',
@@ -246,7 +246,7 @@ const blogList = [
         desc: 'Discover the rising trend of silver engagement rings and why they are becoming a popular choice among couples looking for alternatives to traditional gold rings.'
     },
     {
-        id: 9,
+        id: 4,
         imgSrc: "images/blog-2.png",
         category: 'Ring',
         date: '25 Aug, 2023',
@@ -255,7 +255,7 @@ const blogList = [
         desc: 'Learn how to choose the perfect engagement ring that reflects your style and the preferences of your loved one. We provide tips and insights to make the selection process easier.'
     },
     {
-        id: 10,
+        id: 5,
         imgSrc: "images/blog-3.png",
         category: 'Jewelry',
         date: '20 Jan, 2023',
