@@ -33,7 +33,7 @@ export default function about({ teamStaticData }) {
     <>
       <Head>
         <title>About</title>
-        <meta name="description" content="Developed By Azizur Rahman" />
+        <meta name="description" content="Sharapat-kumisteri" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="images/favicon.png" />
       </Head>
