@@ -13,8 +13,8 @@ const MobileMenuSection = () => {
             </Link>
             <nav className="mean-nav">
                 <div className="align-items-center justify-content-center mobile-menu-list-items">
-                <div className="fz-dropdown fz-nav-item">
-                <ul>
+                    <div className="fz-dropdown fz-nav-item">
+                    <ul>
                     <li><Link href="/" className="fz-nav-link fz-submenu-nav-link sub-menu-link"><span>Home</span></Link></li>
                     </ul>
                     </div>
@@ -41,7 +41,6 @@ const MobileMenuSection = () => {
                     <ul>
                         <li><Link href="/contact" className="fz-nav-link fz-submenu-nav-link sub-menu-link"><span>Contact</span></Link></li>
                     </ul>
-                       
                     </div>
                 </div>
             </nav>

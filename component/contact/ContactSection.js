@@ -17,7 +17,7 @@ const ContactSection = () => {
                 <ul>
                     <li className="fz-single-contact-info">
                         <i className="fa-light fa-location-dot"></i>
-                        <span className="contact-address"> TRK MAXIMA, ALMATY, KAZAKHSTAN</span>
+                        <span className="contact-address">TRK MAXIMA, ALMATY, KAZAKHSTAN</span>
                     </li>
 
                     <li className="fz-single-contact-info">

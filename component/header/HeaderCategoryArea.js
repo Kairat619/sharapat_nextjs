@@ -17,8 +17,7 @@ const HeaderCategoryArea = ({header,title}) => {
 
         <div className={`fz-category-menu ${isCategoryOpen? 'open':''}`}>
             <div className="row gx-3 gx-md-5 gy-5">
-                
-                <div className="col-md-6 col-4">
+            <div className="col-md-6 col-4">
                     <ul className="fz-category-list">
                         <li><Link href="/shop">Rings (29)</Link></li>
                         <li><Link href="/shop">Earrings (47)</Link></li>

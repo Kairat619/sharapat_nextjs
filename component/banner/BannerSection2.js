@@ -3,10 +3,6 @@ import Link from 'next/link'
 import React, { useContext } from 'react'
 import VideoModal from '../modal/VideoModal'
 
-     
-         
-   
-
 const BannerSection2 = () => {
     const {handleVideoShow} = useContext(FarzaaContext)
   return (
@@ -43,7 +39,7 @@ const BannerSection2 = () => {
                 <div className="col-lg-5">
                     <div className="fz-banner-vid">
                         <img src="images/banner-img.jpg" alt="background image" className="fz-banner-vid-img"/>
-                        <button  className="fz-banner-vid-btn"  onClick={handleVideoShow}><i className="fa-solid fa-play"></i></button>
+                        <button className="fz-banner-vid-btn" onClick={handleVideoShow}><i className="fa-solid fa-play"></i></button>
                         <div className="fz-banner-vid-txt">
                             <h4><span>25K</span> New Collections</h4>
                         </div>

@@ -21,7 +21,7 @@ const CategorySection2 = () => {
                     <div className="col-4">
                         <div className="fz-single-category">
                             <div className="fz-single-category__img">
-                                <img src="images/fz-2-cat-1.png" alt="category image" height="600" width="462"/>
+                                <img src="images/fz-2-cat-1.png" alt="category image"/>
                                 <div className="fz-overlay"></div>
                                 <Link href="/shop" className="fz-def-btn">
                                     <span></span>

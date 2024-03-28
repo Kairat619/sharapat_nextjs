@@ -1,11 +1,11 @@
 import React from 'react'
-import HeaderSection3 from '../header/HeaderSection3'
+import HeaderSection2 from '../header/HeaderSection2'
 import FooterSection from '../footer/FooterSection'
 
 const Layout = ({children}) => {
   return (
     <>
-        <HeaderSection3/>
+        <HeaderSection2/>
         {children}
         <FooterSection/>
     </>

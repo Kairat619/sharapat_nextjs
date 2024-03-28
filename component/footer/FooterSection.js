@@ -69,7 +69,7 @@ const FooterSection = () => {
                                     <a href="tel:9072254144"><i className="fa-light fa-phone"></i> 8(771) 255-442</a>
                                 </li>
                                 <li>
-                                    <a href="mailto:info@webmail.com"><i className="fa-light fa-envelope-open-text"></i>info@webmail.com</a>
+                                    <a href="mailto:info@webmail.com"><i className="fa-light fa-envelope-open-text"></i>sharapatsilver@gmail.com</a>
                                 </li>
                             </ul>
                         </div>
@@ -84,7 +84,7 @@ const FooterSection = () => {
                     <div className="col-md-6 col-12">
                         <p className="fz-copyright">
                             &copy;
-                            {currentYear} Design & Developed by <b>K.K.T</b>
+                            {currentYear} Design & Developed by <b>CodeBasket</b>
                         </p>
                     </div>
 

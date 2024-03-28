@@ -1,33 +1,10 @@
 import { createContext, useEffect, useRef, useState } from 'react';
 import { toast } from 'react-toastify';
 
-  
-
-
 const FarzaaContext = createContext();
 
 
 const FarzaaContextProvider = ({ children }) => {
-
-  // All Ornament product fetched from api
-  const [allOrnament, setAllOrnament] = useState([])
-  useEffect(() => {
-    async function fetchOrnaments() {
-      try {
-        const response = await fetch('/api/ornaments');
-        if (response.ok) {
-          const data = await response.json();
-          setAllOrnament(data); // Store fetched data in ornamentDataList
-        } else {
-          console.error('Failed to fetch products');
-        }
-      } catch (error) {
-        console.error('Error fetching products:', error);
-      }
-    }
-
-    fetchOrnaments();
-  }, []);
   // All door product fetched from api('/api/product` replaced with '/api/ornaments`)
   const [allProduct, setAllProduct] = useState([])
   const [filteredProducts, setFilteredProducts] = useState([]); // State for filtered products
@@ -50,7 +27,25 @@ const FarzaaContextProvider = ({ children }) => {
     fetchProducts();
   }, []);
 
-  
+  // All Ornament product fetched from api
+  const [allOrnament, setAllOrnament] = useState([])
+  useEffect(() => {
+    async function fetchOrnaments() {
+      try {
+        const response = await fetch('/api/ornaments');
+        if (response.ok) {
+          const data = await response.json();
+          setAllOrnament(data); // Store fetched data in ornamentDataList
+        } else {
+          console.error('Failed to fetch products');
+        }
+      } catch (error) {
+        console.error('Error fetching products:', error);
+      }
+    }
+
+    fetchOrnaments();
+  }, []);
 
   // All Cake product fetched from api
   const [allCake, setAllCake] = useState([])
@@ -124,12 +119,10 @@ const FarzaaContextProvider = ({ children }) => {
 
 
   // Video Modal
-  
   const [showVideo, setShowVideo] = useState(false);
 
   const handleVideoClose = () => setShowVideo(false);
   const handleVideoShow = () => setShowVideo(true);
-  
 
   // Header Category Button
   const [isCategoryOpen, setIsCategoryOpen] = useState(false)

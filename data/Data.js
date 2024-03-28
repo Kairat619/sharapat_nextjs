@@ -1,5 +1,3 @@
-
-
 const firstBannerData = [
     {
         id:0,
@@ -115,103 +113,188 @@ const accordionList = [
         title:"What Are The Shipping Options?",
     },
 ]
-// original allProductList moved to ReadMe.md
+
 const allProductList = [
     {
         id:0,
-        imgSrc:"images/img-1.jpg",
-        category:"Ring",
-        name:"Flower Shaped Diamond Ring",
-        price:640.00,
-        oldPrice:780.00,
+        imgSrc:"images/fz-3-pro-2.png",
+        name:"Dark Brown Door",
+        category:"Solid Color Door",
+        price:740.00,
         isInWishlist:false,
-        type:'ornaments',
-        slug:'flower-shaped-diamond-ring',
+        type:'products',
+        slug:'dark-brown-door',
+    },{
+        id:1,
+        imgSrc:"images/fz-3-pro-3.png",
+        name:"Light Wood Door",
+        category:"Double Layer Door",
+        price:550.00,
+        isInWishlist:false,
+        type:'products',
+        slug:"light-wood-door",
+    },{
+        id:2,
+        imgSrc:"images/fz-3-pro-4.png",
+        name:"Dark Stripe Door",
+        category:"Chinese Door",
+        price:850.00,
+        isInWishlist:false,
+        type:'products',
+        slug:'dark-stripe-door',
+    },{
+        id:3,
+        imgSrc:"images/fz-3-pro-5.png",
+        name:"Modern Fine Door",
+        category:"Plastic Door",
+        price:440.00,
+        isInWishlist:false,
+        type:'products',
+        slug:'modern-fine-door',
+    },{
+        id:4,
+        imgSrc:"images/fz-3-cat-4.png",
+        name:"Brown Wood Door",
+        category:"Solid Color Door",
+        price:680.00,
+        isInWishlist:false,
+        type:'products',
+        slug:'solid-color-door',
+    },{
+        id:5,
+        imgSrc:"images/fz-3-cat-4.png",
+        name:"Brown Layer Door",
+        category:"Solid Color Door",
+        price:730.00,
+        isInWishlist:false,
+        type:'products',
+        slug:'brown-layer-door',
+    },{
+        id:6,
+        imgSrc:"images/fz-3-cat-3.png",
+        name:"Dark Solid Door",
+        category:"Bi-fold Doors",
+        price:940.00,
+        isInWishlist:false,
+        type:'products',
+        slug:'dark-solid-door',
+    },{
+        id:7,
+        imgSrc:"images/fz-3-cat-2.png",
+        name:"Wood Stripe Door",
+        category:"Panel Door",
+        price:480.00,
+        isInWishlist:false,
+        type:'products',
+        slug:'wood-stripe-door'
+    },{
+        id:8,
+        imgSrc:"images/fz-3-cat-1.png",
+        name:"Light Brown Door",
+        category:"Wooden Door",
+        price:390.00,
+        isInWishlist:false,
+        type:'products',
+        slug:'light-brown-door'
+    },{
+        id:9,
+        imgSrc:"images/fz-3-pro-1.png",
+        name:"Plastic Brown Door",
+        category:"Plastic Door",
+        price:240.00,
+        isInWishlist:false,
+        type:'products',
+        slug:'plastic-brown-door',
+    },{
+        id:10,
+        imgSrc:"images/fz-3-pro-6.png",
+        name:"Modern Black Door",
+        category:"Steel Door",
+        price:430.00,
+        isInWishlist:false,
+        type:'products',
+        slug:'modern-black-door',
+    },{
+        id:11,
+        imgSrc:"images/fz-3-pro-7.png",
+        name:"Plastic Black Door",
+        category:"Security Door",
+        price:580.00,
+        isInWishlist:false,
+        type:'products',
+        slug:'plastic-black-door',
+    },{
+        id:12,
+        imgSrc:"images/fz-3-pro-5.png",
+        name:"Wooden Design Door",
+        category:"Plastic Door",
+        price:340.00,
+        isInWishlist:false,
+        type:'products',
+        slug:'wooden-design-door',
+    },{
+        id:13,
+        imgSrc:"images/fz-3-cat-4.png",
+        name:"Rustic Theme Door",
+        category:"Wooden Door",
+        price:690.00,
+        isInWishlist:false,
+        type:'products',
+        slug:'rustic-theme-door',
+    },{
+        id:14,
+        imgSrc:"images/fz-3-cat-2.png",
+        name:"Wood Light Door",
+        category:"Wooden Door",
+        price:350.00,
+        isInWishlist:false,
+        type:'products',
+        slug:'wood-light-door',
+    },{
+        id:15,
+        imgSrc:"images/feat-pro-1.png",
+        name:"Brown Solid Door",
+        category:"Wooden Door",
+        price:630.00,
+        oldPrice:900.00,
+        isInWishlist:false,
+        type:'products',
+        slug:'brown-solid-door',
+    },{
+        id:16,
+        imgSrc:"images/feat-pro-2.png",
+        name:"Brown Antique Door",
+        category:"Wooden Door",
+        price:672.00,
+        oldPrice:960.00,
+        isInWishlist:false,
+        type:'products',
+        slug: 'brown-antique-door',
+    },
+    
+]
+
+const blogList = [
+    {
+        id:0,
+        imgSrc:"images/blogs-blog-1.png",
+        category:"Electronic",
+        date:"June 21, 2023",
+        slug:'electronic-product',
+        title:"An electronic product is a device that uses electricity to perform a function.",
+        desc:"Electronic products often contain a range of components, including processors, memory, and input/output devices, and they may be powered by batteries or plugged into an electrical outlet. Many electronic products rely on software programs to function and may be connected to the internet.",
     },
     {
         id:1,
-        imgSrc:"images/img-2.jpg",
-        category:"Ring",
-        name:"Crown Shaped Diamond Ring",
-        price:950.00,
-        oldPrice:980.00,
-        isInWishlist:false,
-        type:'ornaments',
-        slug:'crown-shaped-diamond-ring',
+        imgSrc:"images/blogs-blog-2.png",
+        category:"Furniture",
+        date:"June 21, 2023",
+        slug:'furniture-inspiration',
+        title:"There are many furniture blogs that provide information and inspiration on furniture",
+        desc:"These blogs often feature articles on a variety of topics related to furniture, such as how to choose the right furniture for your space, how to care for different types of furniture, and how to mix and match different styles to create a cohesive look...",
     },
     {
         id:2,
-        imgSrc:"images/img-3.jpg",
-        category:"Necklace",
-        name:"Diamond Cross Necklace",
-        price:760.00,
-        oldPrice:820.00,
-        isInWishlist:false,
-        type:'ornaments',
-        slug:'diamond-cross-necklace',
-    },
-    {
-        id:3,
-        imgSrc:"images/img-4.jpg",
-        category:"Necklace",
-        name:"Sapphire Diamond Necklace",
-        price:830.00,
-        oldPrice:880.00,
-        isInWishlist:false,
-        type:'ornaments',
-        slug:'sapphire-diamond-necklace',
-    },
-    {
-        id:4,
-        imgSrc:"images/img-5.jpg",
-        category:"Hair Clip",
-        name:"Diamond Ingraved Ribbon",
-        price:450.00,
-        oldPrice:480.00,
-        isInWishlist:false,
-        type:'ornaments',
-        slug:'diamond-ingraved-ribbon',
-    },
-    {
-        id:5,
-        imgSrc:"images/img-6.jpg",
-        category:"Ring",
-        name:"Diamond Engagement Ring",
-        price:800.00,
-        oldPrice:850.00,
-        isInWishlist:false,
-        type:'ornaments',
-        slug:'diamond-engagement-ring',
-    },
-    {
-        id:6,
-        imgSrc:"images/img-7.jpg",
-        category:"Bracelet",
-        name:"Diamond Ingraved Bracelet",
-        price:640.00,
-        oldPrice:780.00,
-        isInWishlist:false,
-        type:'ornaments',
-        slug:'diamond-ingraved-bracelet',
-    },
-    {
-        id:7,
-        imgSrc:"images/img-8.jpg",
-        category:"Bracelet",
-        name:"Diamond Leather Bracelet",
-        price:640.00,
-        oldPrice:780.00,
-        isInWishlist:false,
-        type:'ornaments',
-        slug:'diamond-leather-bracelet',
-    },
-]
-
-
-const blogList = [
-    
-    {
-        id:0,
         imgSrc:"images/blogs-blog-3.png",
         category:"Fashion",
         date:"June 21, 2023",
@@ -220,7 +303,7 @@ const blogList = [
         desc:"Electronic products often contain a range of components, including processors, memory, and input/output devices, and they may be powered by batteries or plugged into an electrical outlet. Many electronic products rely on software programs to function and may be connected to the internet.",
     },
     {
-        id: 1,
+        id: 3,
         imgSrc: "images/blogs-blog-4.png",
         category: "Food",
         date: "June 22, 2023",
@@ -229,7 +312,7 @@ const blogList = [
         desc: "Food is not just sustenance; it's an art, a culture, and a way of life. From street food stalls to Michelin-starred restaurants, this blog dives into the rich tapestry of flavors, ingredients, and culinary traditions that make up our global food landscape.",
     },
     {
-        id: 3,
+        id: 4,
         imgSrc: "images/blogs-blog-5.png",
         category: "Travel",
         date: "June 22, 2023",
@@ -237,9 +320,38 @@ const blogList = [
         title: "Wanderlust Chronicles: Tales of Adventures and Discoveries",
         desc: "Embark on a virtual journey to faraway lands, hidden gems, and breathtaking landscapes. This travel blog captures the spirit of exploration, offering insights into unforgettable destinations, travel tips, and personal stories from globetrotters around the world.",
     },
-    
     {
-        id: 4,
+        id: 5,
+        imgSrc: "images/fz-3-blog-1.png",
+        category: "Classic Door",
+        date: "17 January, 2023",
+        length: 7,
+        title: "Ultimate Guide to Buying a Custom Solid Wood Door",
+        desc: "In this Ultimate Guide to Buying a Custom Wood Door, we answer your questions about figuring out the size of the door you need, designing it how you like...",
+        slug:"ultimate-guide-to-buying-a-custom-solid-wood-door",
+    },
+    {
+        id: 6,
+        imgSrc: "images/fz-3-blog-2.png",
+        category: "Modern Door",
+        date: "17 January, 2023",
+        length: 5,
+        title: "Modern Door Trends for 2023",
+        slug:"modern-door-trends-for-2023",
+        desc: "Explore the latest trends in modern door design for the year 2023, including materials, colors, and styles.", // Different description
+    },
+    {
+        id: 7,
+        imgSrc: "images/fz-3-blog-3.png",
+        category: "Glass Doors",
+        date: "17 January, 2023",
+        length: 9,
+        title: "The Beauty of Glass Doors",
+        slug: "the-beauty-of-glass-doors",
+        desc: "Discover the elegance and functionality of glass doors in home design, and learn how to incorporate them into your space.", // Different description
+    },
+    {
+        id: 8,
         imgSrc: "images/blog-1.png",
         category: 'Jewelry',
         date: '11 May, 2023',
@@ -248,7 +360,7 @@ const blogList = [
         desc: 'Discover the rising trend of silver engagement rings and why they are becoming a popular choice among couples looking for alternatives to traditional gold rings.'
     },
     {
-        id: 5,
+        id: 9,
         imgSrc: "images/blog-2.png",
         category: 'Ring',
         date: '25 Aug, 2023',
@@ -257,7 +369,7 @@ const blogList = [
         desc: 'Learn how to choose the perfect engagement ring that reflects your style and the preferences of your loved one. We provide tips and insights to make the selection process easier.'
     },
     {
-        id: 6,
+        id: 10,
         imgSrc: "images/blog-3.png",
         category: 'Jewelry',
         date: '20 Jan, 2023',
@@ -265,8 +377,34 @@ const blogList = [
         title: 'Choosing the Best Jewelry: A Guide to Making Informed Decisions',
         desc: 'Explore our comprehensive guide to making informed decisions when it comes to choosing jewelry. We cover factors like materials, styles, and more to help you make the best choices.'
     },
-    
-    
+    {
+        id: 11,
+        imgSrc: "images/fz-blog-1.png",
+        title: "Banana Cake with Brown Butter Cream Cheese Frosting",
+        category: "Cake Shop",
+        date: '15 Mar, 2023',
+        slug: "banana-cake-brown-butter-frosting",
+        desc: 'Indulge in the delightful flavors of our Banana Cake topped with rich Brown Butter Cream Cheese Frosting. This recipe is sure to satisfy your sweet cravings.'
+    },
+    {
+        id: 12,
+        imgSrc: "images/fz-blog-2.png",
+        title: "Flourless Chocolate Cake With Mocha Whipped Cream",
+        category: "Cake Shop",
+        date: '10 Apr, 2023',
+        slug: "flourless-chocolate-cake-mocha-cream",
+        desc: "Experience pure chocolate bliss with our Flourless Chocolate Cake. Paired with Mocha Whipped Cream, it's a decadent treat for all chocolate lovers."
+    },
+    {
+        id: 13,
+        imgSrc: "images/fz-blog-3.png",
+        title: "Vanilla Sheet Cake with Whipped Buttercream Frosting",
+        category: "Cake Shop",
+        date: '5 May, 2023',
+        slug: "vanilla-sheet-cake-buttercream-frosting",
+        desc: 'Savor the classic taste of Vanilla Sheet Cake adorned with Whipped Buttercream Frosting. Perfect for celebrations or simply indulging in a sweet moment.'
+    }
+
 ]
 
 const ornamentList = [
